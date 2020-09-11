@@ -47,7 +47,7 @@ def religious_mapping(religious):
 
 
 
-@app.route('/math', methods=['POST'])  # This will be called from UI
+@app.route('/affair', methods=['POST'])  # This will be called from UI
 def math_operation():
     if (request.method=='POST'):
         #operation=request.form['operation']
