@@ -23,23 +23,23 @@ def no_children_func(number_of_children):
         return 0
 
 def rate_marriage_mapping(rate_marriage):
-    if rate_marriage == 'very poor':
+    if rate_marriage == 'Very poor':
         return 1
-    elif rate_marriage == 'poor':
+    elif rate_marriage == 'Poor':
         return 2
-    elif rate_marriage == 'fair':
+    elif rate_marriage == 'Fair':
         return 3
-    elif rate_marriage == 'good':
+    elif rate_marriage == 'Good':
         return 4
     else:
         return 5
 
 def religious_mapping(religious):
-    if religious == 'not':
+    if religious == 'Not':
         return 1
-    elif religious == 'mildly':
+    elif religious == 'Mildly':
         return 2
-    elif religious == 'fairly':
+    elif religious == 'Fairly':
         return 3
     else:
         return 4           
